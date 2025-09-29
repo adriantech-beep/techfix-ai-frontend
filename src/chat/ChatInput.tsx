@@ -39,7 +39,7 @@ const ChatInput = ({ onSubmit }: Props) => {
       <form
         onSubmit={submit}
         onKeyDown={handleKeyDown}
-        className="relative w-full"
+        className="relative w-full "
       >
         <Textarea
           {...register("prompt")}
