@@ -47,7 +47,7 @@ const Chatbot = () => {
         {messages.length === 0 ? (
           <div className="w-full h-full flex items-center justify-center">
             <p className="text-gray-400 text-center">
-              What can I help you with today with your gadget?
+              What can I help you with your gadget today?
             </p>
           </div>
         ) : (
@@ -58,7 +58,7 @@ const Chatbot = () => {
         {error && <p className="text-red-400">{error}</p>}
       </div>
 
-      <div>
+      <div className="px-72">
         <ChatInput onSubmit={onSubmit} />
       </div>
     </div>

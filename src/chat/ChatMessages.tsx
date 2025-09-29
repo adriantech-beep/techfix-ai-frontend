@@ -62,8 +62,8 @@ const ChatMessages = ({ messages }: Props) => {
             className={`max-w-[55%] px-4 py-2 rounded-2xl text-sm shadow
         ${
           message.role === "user"
-            ? "bg-blue-600 text-white rounded-br-none"
-            : "bg-gray-100 text-gray-900 rounded-bl-none"
+            ? "bg-blue-600 text-white rounded-br-none max-w-2xs "
+            : "bg-gray-100 text-gray-900 rounded-bl-none max-w-2xs "
         }`}
           >
             {typeof message.content === "string" ? (
